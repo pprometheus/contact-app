@@ -1,11 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Header from './components/Header';
+import AddContact from './components/AddContact';
+import ContactList from './components/ContactList';
 
 function App() {
   return (
     <div>
-      Hello World!
+    <Header/>
+    <AddContact/>
+   
+    <ContactList/>
     </div>
+ 
+
+
   );
 }
 
